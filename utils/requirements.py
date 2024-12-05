@@ -2,7 +2,7 @@ import subprocess
 
 
 def install_base_packages():
-    packages = ["transformers==4.26.1", "datasets==2.10.1"]
+    packages = ["transformers==4.26.1", "datasets==3.1.0"]
     check = u'\u2705'
     print("\033[1mInstalling base requirements...\n\033[0m")
     for package in packages:
